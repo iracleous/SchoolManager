@@ -9,4 +9,5 @@ public interface ComponentRepository<T> {
     T getItemById(int id);
     List<T> getAll();
 
+    boolean updateItem(T t);
 }
